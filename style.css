@@ -198,11 +198,15 @@ nav ul li a{
     }
 }
 
-/*sample audio*/
+/*local audio file*/
 .sample-audio{
     position: absolute;
     text-align: center;
     left: 50%;
     transform: translateX(-50%);
     padding: 15px;
+}
+
+.audio{
+    padding: 40px;
 }
