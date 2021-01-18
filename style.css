@@ -142,7 +142,24 @@ nav ul li a{
 }
 .location{
     grid-area: location;
-    background: purple;
+    background: rgba(212, 26, 26, 0.925);
+    text-align: center;
+    color: white;
+    height: max-content;
+    justify-content: center;
+}
+
+.location button{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: thin;
+    margin: 15px;
+}
+
+.location button:hover{
+    background-color: rgba(0, 0, 0, 0.733);
+    color: white;
 }
 
 @media(max-width:1138px){
